@@ -146,7 +146,6 @@ public class Basics {
         for (String s : to_split.split(" ")){
             ret.append(s.charAt(0));
         }
-
         return ret.toString();
     }
 
